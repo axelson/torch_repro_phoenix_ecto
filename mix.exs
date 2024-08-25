@@ -32,6 +32,7 @@ defmodule TorchRepro.MixProject do
   # Type `mix help deps` for examples and options.
   defp deps do
     [
+      {:torch, "~> 5.3"},
       {:phoenix, "~> 1.7.14"},
       {:ecto_sql, "~> 3.10"},
       {:postgrex, ">= 0.0.0"},

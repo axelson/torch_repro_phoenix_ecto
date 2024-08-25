@@ -22,6 +22,9 @@ config :torch_repro, TorchReproWeb.Endpoint,
   pubsub_server: TorchRepro.PubSub,
   live_view: [signing_salt: "XAoGIHG6"]
 
+config :torch,
+  otp_app: :torch_repro
+
 # Configures the mailer
 #
 # By default it uses the "Local" adapter which stores the emails
